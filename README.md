@@ -1,2 +1,0 @@
-# cajeroweb
-Prueba tecnica laboral

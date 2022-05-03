@@ -1,0 +1,1 @@
+insert into tbluser (description,status,creation_date)values('buy cereal',0, NOW());

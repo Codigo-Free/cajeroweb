@@ -1,0 +1,1 @@
+insert into tbluser (name,password)values('efra','1234');

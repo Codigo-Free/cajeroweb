@@ -1,0 +1,5 @@
+package com.efrasoft.cajero.commons.entity;
+
+public class User {
+
+}

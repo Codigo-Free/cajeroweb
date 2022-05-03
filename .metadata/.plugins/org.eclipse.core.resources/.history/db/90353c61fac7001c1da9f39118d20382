@@ -1,0 +1,5 @@
+package com.efrasoft.cajero.user.repository;
+
+public interface IUserRepository {
+
+}

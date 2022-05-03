@@ -1,0 +1,29 @@
+package com.efrasoft.cajero.commons.entity;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name = "Tblaccount")
+public class Account implements Serializable{
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date createAt;
+	
+	private Long  amount = 0;
+	
+	private static final long serialVersionUID = 2062193426659119308L;
+
+}

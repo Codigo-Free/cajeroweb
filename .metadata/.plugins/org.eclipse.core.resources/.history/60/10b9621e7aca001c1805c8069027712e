@@ -1,0 +1,3 @@
+insert into TBLUSER (name,password)values('efrasoft',0);
+insert into TBLACCOUNT (ACCOUNT_TYPE,AMOUNT,STATUS,USER_ID)values('ahorros',0,1,'1');
+insert into TBLTRANSACTION (name,amount,status,account_id)values('Consignacion',10,1,1);

@@ -1,0 +1,12 @@
+package com.efrasoft.cajero.commons.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Tblaccount")
+public class Account implements Serializable{
+
+}
